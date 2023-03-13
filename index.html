@@ -400,7 +400,7 @@ input{
 
 .submit{
 	font-size:25px;
-	width:150px;
+	width: clamp(100px, 30vw, 150px);
 	border-radius: 100px;
 	height: 50px;
 	border: none;
@@ -511,7 +511,6 @@ h1{
 	.main{
 		font-size: clamp(8px, 4vw, 30px);
 		transform:scale(2,3);
-		margin: 25px;
 	}
 	p{
 		font-size: 15px;
@@ -520,7 +519,7 @@ h1{
 		margin: 15px;
 	}
 	h2{
-		font-size: 35px;
+		font-size: clamp(25px, 9vw, 45px);
 	}
 }
 
