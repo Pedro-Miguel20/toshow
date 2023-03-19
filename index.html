@@ -648,19 +648,23 @@ h3{
 }
 
 /*scroll-bar-start*/
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
 /* Track */
-::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
   background: white;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
   background: #F5D23B;
   border-radius: 10px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover {
   background: #DEAB2A;  
 /*scroll-bar-end*/
 
